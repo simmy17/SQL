@@ -1,0 +1,11 @@
+/* Book List Database
+
+create a table to store your list of books. It should have columns for id, name, and rating*/
+
+CREATE TABLE Books(id INTEGER, name TEXT, rating INTEGER);
+
+INSERT into Books values (1, "Diary", 5);
+
+INSERT into Books values (2, "Love", 4);
+
+INSERT into Books values (3, "Success", 2);
